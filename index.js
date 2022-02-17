@@ -10,5 +10,5 @@ APP.use(EXPRESS.static('public'));
 APP.get("/", (req, res) => {
     res.render("index", {title: "Baaboud"});
 });
-
+//
 APP.listen(PORT);
